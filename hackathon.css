@@ -1,0 +1,52 @@
+/* Reset some default styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the container */
+.hcontainer {
+    background-color: #212121; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hackathon-list {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-family: Arial, sans-serif; 
+}
+
+.hackathon-list h2{
+    color: white;
+    font-family: Arial, sans-serif; 
+    font-size: 32px;
+
+}
+/* Style the list items */
+.hackathon-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.hackathon-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Add hover animation to list items */
+.hackathon-list li a {
+    text-decoration: none;
+    color: #3c01ff; /* Text color */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.hackathon-list li a:hover {
+    color: white; /* Change color on hover */
+}
